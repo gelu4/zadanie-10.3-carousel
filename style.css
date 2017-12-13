@@ -27,20 +27,18 @@
 	height: 100%;
 }
 
-#prev {
+#prev, #next {
+	color: lightslategray;
 	position: absolute;
 	top: 50%;
-	left: 20px;
 	transform: translateY(-50%);
 	cursor: pointer;
 }
-
+#prev {
+	left: 20px;
+}
 #next {
-	position: absolute;
-	top: 50%;
 	right: 20px;
-	transform: translateY(-50%);
-	cursor: pointer;
 }
 
 .pagination {
@@ -56,7 +54,7 @@
 	width: 10px;
 	height: 10px;
 	border-radius: 50%;
-	border: 1px solid black;
+	border: 1px solid lightslategray;
 	margin: 0 10px;
 }
 

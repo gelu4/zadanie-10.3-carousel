@@ -15,6 +15,5 @@ setInterval(function changeSlide(){
 		carouselList.css({marginLeft:0});
 	
 	}
-
 	
 });
