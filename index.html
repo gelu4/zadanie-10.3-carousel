@@ -2,9 +2,11 @@
 <html lang="pl">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Carousel JQ</title>
-		 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-1.4.2.js" integrity="sha256-lcAjyA3+DTAwTFgkSHiZUGH4eAGmbapda/TyUSvg5vk=" crossorigin="anonymous"></script>
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
@@ -15,9 +17,18 @@
 				<li><img src="http://smakoszewo.pl/wp-content/uploads/2016/07/ostrygi-400x400.jpg" alt=""></li>
 				<li><img src="http://smakoszewo.pl/wp-content/uploads/2016/07/gulasz-w%C4%99gierski-400x400.jpg" alt=""></li>
 				<li><img src="http://smakoszewo.pl/wp-content/uploads/2016/07/Borowikowa-z-%C5%82azankami-400x400.jpg" alt=""></li>
-			</ul>
-		</div>
-
+				
+			 	<i id="prev" class="fa fa-arrow-left fa-2x" aria-hidden="true"></i>
+        		<i id="next" class="fa fa-arrow-right fa-2x" aria-hidden="true"></i>
+        		
+			<div class="pagination">
+				<div class="change-slide active" data-slide="1"></div>
+				<div class="change-slide" data-slide="2"></div>
+				<div class="change-slide" data-slide="3"></div>
+				<div class="change-slide" data-slide="4"></div>
+				<div class="change-slide" data-slide="5"></div>
+			</div>  
+			
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 			<script type="text/javascript" src="script.js"></script>
